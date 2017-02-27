@@ -1,0 +1,6 @@
+// Tabs
+
+.tabs {
+	@include display(flex);
+	margin: em(32);
+}

@@ -1,1 +1,21 @@
 // Tab
+
+.tab {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(center);
+	@include flex(1);
+	background-color: cyan;
+	margin-right: em(16);
+	padding: em(16) rem(24);
+
+	&:last-child {
+		margin-right: 0
+	}
+
+	a {
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+}
