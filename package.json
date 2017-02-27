@@ -9,6 +9,7 @@
     "url": "git://github.com/hellorich/go.git"
   },
   "devDependencies": {
+    "foundation-sites": "^6.3.0",
     "grunt": "*",
     "grunt-autoprefixer": "*",
     "grunt-browser-sync": "*",
